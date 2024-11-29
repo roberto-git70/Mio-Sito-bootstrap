@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="utf-8" />
+  <title>MM&R - Soluzioni Professionali per il Web Design</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta content="" name="keywords" />
+  <meta content="" name="description" />
+
+
+  <!-- Favicon -->
+
+  <link rel="icon" type="image/png" href="/favicon/" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
+  <link rel="shortcut icon" href="favicon/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+  <link rel="manifest" href="favicon/site.webmanifest" />
+
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Ubuntu:wght@500;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Icon Font Stylesheet -->
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+
+  <link href="lib/animate/animate.min.css" rel="stylesheet" />
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+  <!-- Bootstrap CSS -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+
+  <!-- Customized Bootstrap Stylesheet -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Template Stylesheet -->
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Spinner Start -->
+  <div id="spinner"
+    class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+  <!-- Spinner End -->
+
+  <!-- Navbar Start -->
+  <div class="container-fluid sticky-top">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark p-0">
+        <a href="index.html" class="navbar-brand">
+          <img src="img/MM&R (2).png" class="img-fluid" alt="logo">
+          <h1 class="text-white"><span class="text-dark"></span></h1>
+        </a>
+        <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto">
+            <a href="index.html" class="nav-item nav-link active">Home</a>
+            <a href="chi-siamo.html" class="nav-item nav-link">Chi Siamo</a>
+            <a href="il-nostro-metodo.html" class="nav-item nav-link">Il Nostro Metodo</a>
+            <!-- <a href="project.html" class="nav-item nav-link">Projects</a> -->
+            <div class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Soluzioni</a>
+              <div class="dropdown-menu bg-light mt-2">
+                <a href="siti-vetrina.html" class="dropdown-item">Siti Vetrina</a>
+                <a href="blog-magazine.html" class="dropdown-item">Blog e Magazie</a>
+                <a href="siti-aziendali.html" class="dropdown-item">Siti Aziendali</a>
+                <a href="professionisti.html" class="dropdown-item">Professionisti</a>
+                <a href="ecommerce.html" class="dropdown-item">Ecommerce</a>
+                <a href="landing-page.html" class="dropdown-item">Landing Page</a>
+              </div>
+            </div>
+            <a href="contatti.html" class="nav-item nav-link">Contatti</a>
+          </div>
+          <butaton type="button" class="btn text-white p-0 d-none d-lg-block" data-bs-toggle="modal"
+            data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <!-- Navbar End -->
+
+  <!-- Hero Start -->
+  <div class="container-fluid pt-5 bg-primary hero-header mb-5">
+    <div class="container pt-5">
+      <div class="row g-5 pt-5">
+        <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
+          <div class="">
+          </div>
+          <h1 class="display-4 text-white mb-4 animated slideInRight">
+            Chi Siamo
+          </h1>
+          <p class="text-white mb-4 animated slideInRight">
+          </p>
+          <a href="" class="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInRight">Read More</a>
+          <a href="" class="btn btn-outline-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">Contact Us</a>
+        </div>
+        <div class="col-lg-6 align-self-end text-center text-lg-end">
+          <img class="img-fluid" src="img/creative-marketing-29.png" alt="team" width="800" height="800" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Hero End -->
+
+  <!-- Full Screen Search Start -->
+  <div class="modal fade" id="searchModal" tabindex="-1">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content" style="background: rgba(20, 24, 62, 0.7)">
+        <div class="modal-header border-0">
+          <button type="button" class="btn btn-square bg-white btn-close" data-bs-dismiss="modal"
+            aria-label="Close"></button>
+        </div>
+        <div class="modal-body d-flex align-items-center justify-content-center">
+          <div class="input-group" style="max-width: 600px">
+            <input type="text" class="form-control bg-transparent border-light p-3" placeholder="Type search keyword" />
+            <button class="btn btn-light px-4">
+              <i class="bi bi-search"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Full Screen Search End -->
+
+  <!-- Primo Blocco Start -->
+  <section id="details" class="details section">
+    <div class="container">
+      <div class="row gy-4 align-items-center features-item">
+        <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
+          <img src="img/details-1.png" class="img-fluid" alt="">
+        </div>
+        <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
+          <h3>Sempre pronti per nuovi traguardi</h3>
+          <p>
+            Una web design agency deve puntare a traguardi ambiziosi per posizionarsi come un partner strategico nel
+            panorama digitale. Ogni obiettivo che persegue non si limita alla creazione di siti web, ma si estende alla
+            generazione di valore per i clienti, migliorando la loro presenza online e contribuendo al successo del loro
+            business. Gli obbiettivi principali verso cui rivolgiamo da sempre la nostra attenzione possono essere sintetizzati in:
+          <ul>
+            <li><i class="bi bi-check"></i><span> Creare Progetti che Conquistino e Coinvolgano</span></li>
+            <li><i class="bi bi-check"></i> <span>2. Garantire un Impatto Concreto sui Risultati di Business</span></li>
+            <li><i class="bi bi-check"></i> <span>Promuovere l’Innovazione e l’Adattabilità</span></li>
+          </ul>
+        </div>
+      </div>
+      <!-- Primo Blocco End -->
+
+      <div class="row gy-4 align-items-center features-item">
+        <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+          <img src="img/details-2.png" class="img-fluid" alt="">
+        </div>
+        <div class="col-md-7 order-2 order-md-1" data-aos="fade-up" data-aos-delay="200">
+          <h3>La nostra passione</h3>
+          <p>
+            Negli anni, la passione per la grafica e il web design è diventato per noi un lavoro che cerchiamo di
+            svolgere sempre con la massima professionalità e attenti alle esigenze del cliente. Le nostre competenze,
+            unite ad una notevole esperienza nel settore del web design, ci permettono di realizzare siti web
+            interattivi, dal design moderno e molto accattivante, che mettono i nostri clienti nelle condizioni migliori
+            per proporre sul web il proprio messaggio, comunicando ed interagendo con i loro potenziali clienti con la
+            certezza di essere sempre un passo avanti rispetto alla concorrenza
+          </p>
+        </div>
+      </div>
+      <!-- Secondo Blocco Start -->
+
+      <div class="row gy-4 align-items-center features-item">
+        <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out">
+          <img src="img/details-3.png" class="img-fluid" alt="">
+        </div>
+        <div class="col-md-7" data-aos="fade-up">
+          <h3>Creare Esperienze Utente Coinvolgenti (UX/UI)</h3>
+          <p>La creazione di esperienze utente coinvolgenti (UX/UI) è l'arte di combinare estetica, funzionalità e
+            strategia per realizzare interfacce digitali che siano non solo piacevoli alla vista, ma anche intuitive da
+            utilizzare. L’obiettivo principale è mettere l’utente al centro del progetto, offrendo soluzioni che
+            soddisfino le sue esigenze in modo semplice e naturale.
+            Un design UX/UI efficace va oltre la bellezza: significa anticipare le aspettative degli utenti e garantire
+            che ogni interazione sia fluida e priva di frustrazioni. Questo include:.</p>
+          <ul>
+            <li><i class="bi bi-check"></i> <span>Struttura chiara e intuitiva: ogni elemento del sito web o
+                dell’applicazione deve essere posizionato in modo logico, con percorsi di navigazione facilmente
+                comprensibili.</span></li>
+            <li><i class="bi bi-check"></i><span>Accessibilità universale: progettare per tutti, compresi gli utenti con
+                disabilità, rendendo il contenuto fruibile su qualsiasi dispositivo o piattaforma.</span></li>
+            <li><i class="bi bi-check"></i> <span>Emozione e coinvolgimento: il design deve suscitare una connessione
+                emotiva con l’utente, attraverso l’uso di colori, tipografie, immagini e animazioni che comunichino in
+                modo efficace il messaggio del brand.</span>.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Secondo Blocco End -->
+
+      <div class="row gy-4 align-items-center features-item">
+        <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out">
+          <img src="img/details-4.png" class="img-fluid" alt="">
+        </div>
+
+        <div class="col-md-7 order-2 order-md-1" data-aos="fade-up">
+          <h3 class="text-start">Le nostre competenze</h3>
+          <p class="text-start">I nostri livelli di competenza nelle varie fasi di sviluppo hanno raggiunto negli anni
+            risultati straordinari, così come riportiamo nel grafico che raccoglie il livello di gradimento dei nostri
+            clienti</p>
+
+          <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="progress-bar bg-success" style="width: 96%">Progettazione e Pianificazione 96%</div>
+          </div>
+          <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="progress-bar bg-info" style="width: 80%">Web Marketing 80%</div>
+          </div>
+          <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="progress-bar bg-warning" style="width: 97%">Assistenza e Manutenzione 97%</div>
+          </div>
+          <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="progress-bar bg-danger" style="width: 100%">Grafica e Design 100%</div>
+          </div>
+
+
+
+          <!-- <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="progress-bar" style="width: 96%">Progettazione e Pianificazione 96%</div>
+          </div>
+
+          <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="progress-bar" style="width: 80%">Web Marketing 80%</div>
+          </div>
+
+          <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="progress-bar" style="width: 97%">Assistenza e Manutenzione 97%</div>
+          </div>
+
+          <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="progress-bar" style="width: 97%">Assistenza e Manutenzione 97%</div>
+          </div>
+        </div>
+      </div> -->
+
+          <!-- Features Item -->
+
+        </div>
+
+  </section>
+
+  <!-- /Details Section -->
+
+  <!-- Footer Start -->
+  <div class="container-fluid bg-dark text-white-50 footer pt-5">
+    <div class="container py-5">
+      <div class="row g-5">
+        <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+          <a href="index.html" class="d-inline-block mb-3">
+            <!-- <h1 class="text-white">
+                AI<span class="text-primary">.</span>Tech
+              </h1> -->
+          </a>
+          <img class="responsive-img" src="img/MM&R (7).png" alt="logo" />
+
+          <p class="mb-0">Trasformiamo le idee dei nostri clienti in esperienze digitali straordinarie, attraverso
+            design creativi e innovativi</p>
+
+        </div>
+        <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+          <h5 class="text-white mb-4">Contattaci</h5>
+          <p>
+            <i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA
+          </p>
+          <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+          <p><i class="fa fa-envelope me-3"></i>info@soluzioniwebdesign.com</p>
+          <div class="d-flex pt-2">
+            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+          <h5 class="text-white mb-4">Popular Link</h5>
+          <a class="btn btn-link" href="">About Us</a>
+          <a class="btn btn-link" href="">Contact Us</a>
+          <a class="btn btn-link" href="">Privacy Policy</a>
+          <a class="btn btn-link" href="">Terms & Condition</a>
+          <a class="btn btn-link" href="">Career</a>
+        </div>
+        <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+          <h5 class="text-white mb-4">Our Services</h5>
+          <a class="btn btn-link" href="">Robotic Automation</a>
+          <a class="btn btn-link" href="">Machine learning</a>
+          <a class="btn btn-link" href="">Predictive Analysis</a>
+          <a class="btn btn-link" href="">Data Science</a>
+          <a class="btn btn-link" href="">Robot Technology</a>
+        </div>
+      </div>
+    </div>
+    <div class="container wow fadeIn" data-wow-delay="0.1s">
+      <div class="copyright">
+        <div class="row">
+          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+            &copy; <a class="border-bottom" href="#">Your Site Name</a>, All
+            Right Reserved.
+
+            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+            Designed By
+            <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+          </div>
+          <div class="col-md-6 text-center text-md-end">
+            <div class="footer-menu">
+              <a href="">Home</a>
+              <a href="">Cookies</a>
+              <a href="">Help</a>
+              <a href="">FAQs</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer End -->
+
+  <!-- Back to Top -->
+  <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2">
+    <i class="bi bi-arrow-up"></i>
+</body></a>
+
+<!-- Back to top button -->
+
+
+<!-- JavaScript Libraries -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="lib/wow/wow.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/counterup/counterup.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+<!-- Template Javascript -->
+<script src="js/main.js"></script>
+</body>
+
+</html>
