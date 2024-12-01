@@ -307,29 +307,27 @@ h6,
     border-radius: 2em;
 }
 
-.container-center {
+
+  /* Stile per l'effetto parallasse Start */
+
+  .parallax {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20%;
+    margin-top: 20%;
+} 
+.content {
     display: flex;
-    justify-content: center;
     align-items: center;
     min-height: 100vh;
-    padding-bottom: 20%;
 }
-.content-box {
-    display: flex;
-    align-items: center;
-    border: 1px solid #ddd;
-    padding: 40px;
-    margin: 10px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 500px;
+.description {
+    padding: 20px;
 }
-.content-box img {
-    max-width: 80px;
-    max-height: 80px;
-    margin-right: 15px;
-}
+
+/* Stile per l'effetto parallasse End */
+
 
 /*** Newsletter ***/
 .newsletter {
